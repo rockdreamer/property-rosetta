@@ -2,9 +2,10 @@
 property-rosetta
 ================
 
-
 A rosetta stone for managing objects and properties using a common dictionary
 
+.. image:: https://travis-ci.org/rockdreamer/property-rosetta.svg?branch=master
+    :target: https://travis-ci.org/rockdreamer/property-rosetta
 
 Description
 ===========
