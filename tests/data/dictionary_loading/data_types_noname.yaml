@@ -1,0 +1,3 @@
+---
+- id: int32
+  description: a 32bit integer, signed

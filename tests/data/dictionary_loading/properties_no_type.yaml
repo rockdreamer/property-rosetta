@@ -1,0 +1,8 @@
+---
+- id: foo.index
+  name: an index into the void
+  description: |
+    Long winded description
+  attributes:
+    minimum_value_inclusive: 0
+    maximum_value_inclusive: 100

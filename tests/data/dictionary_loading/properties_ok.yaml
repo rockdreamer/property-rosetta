@@ -1,0 +1,14 @@
+---
+- id: foo.index
+  name: an index into the void
+  type: int32
+  description: |
+    Long winded description
+  attributes:
+    minimum_value_inclusive: 0
+    maximum_value_inclusive: 100
+- id: element
+  name: Element Type
+  type: elementid
+  description: a property with a particular element type
+  deprecated: true

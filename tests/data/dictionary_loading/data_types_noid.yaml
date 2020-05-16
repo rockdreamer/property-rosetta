@@ -1,0 +1,4 @@
+---
+- name: 32-bit signed int
+  semantics: value
+  description: a 32bit integer, signed

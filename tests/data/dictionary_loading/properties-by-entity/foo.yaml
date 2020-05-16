@@ -1,0 +1,46 @@
+---
+# Navigation properties: these help addressing 'who am I' or 'where am I' in a context sensitive manner
+- id: atom.chemical_diagram_index
+  name: Index of the chemical diagram this atom belongs to
+  type: int32
+  description: |
+    An index identifying which chemical diagram in a crystal this atom belongs to
+
+    Note: the fact that this entry exists does not mean that it has to be serialised and encoded everywhere
+    However, where it makes sense, implementations can use it as a consistent method of identifying
+    where the atom belongs
+# Descriptive properties
+- id: atom.element
+  name: Element Type
+  type: elementid
+  description: the element of the atom
+- id: atom.isotope
+  name: Isotope
+  type: int32 # TODO: should this be an enum?
+  description: |
+    Used to indicate whether the atom is the main or another isotope.
+
+    Historically, the CSD mostly contains main isotopes, Deuterium being the exception to this rule.
+- id: atom.formal_charge
+  name: Formal Charge
+  type: int32
+  description: the atom charge
+  attributes:
+    minimum_value: -100
+    maximum_value: 100
+- id: atom.oxidation_state
+  name: Oxidation State
+  type: int32
+  description: Describe me please
+- id: atom.radical
+  name: Radical
+  type: int32
+  description: Describe me please
+- id: atom.polymeric
+  name: Polymeric
+  type: bool
+  description: Describe me please
+- id: atom.chemical_diagram_point
+  name: Position in Chemical Diagram
+  type: point_2d
+  description: The position of the atom in a 2D chemical diagram

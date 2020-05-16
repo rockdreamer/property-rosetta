@@ -1,0 +1,11 @@
+---
+- id: enum.entity.foo
+  name: Foo Bar
+  description: >
+    A sample enumeration
+  values:
+    - id: foo
+      description: The foo value
+    - id: bar
+      integral_value: 1
+      description: The bar value

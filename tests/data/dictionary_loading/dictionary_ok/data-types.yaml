@@ -1,0 +1,16 @@
+---
+- id: int32
+  name: 32-bit signed int
+  semantics: value
+  description: a 32bit integer, signed
+- id: bool
+  name: Boolean value
+  semantics: value
+  description: a boolean
+- id: enum
+  name: Enumeration
+  semantics: value
+  description: >
+    an enumeration. use of this type by itself is not possible. one of the enumerations defined in the
+    enumerations.yaml file must be used
+  deprecated: true

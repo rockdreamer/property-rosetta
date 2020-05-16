@@ -1,0 +1,11 @@
+---
+version: 0.0.1
+base_entities:
+  - id: atom
+    description: A single atom, can be part of a chemical 2d diagram or a 3d diagram
+  - id: bond
+    description: A bond between two atoms
+  - id: molecule
+    description: A congregation of atoms and bonds
+  - id: entry
+    description: An entry in the CSD database

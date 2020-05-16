@@ -1,0 +1,7 @@
+---
+- id: ok
+  name: An Ok entity
+  description: An entity that works
+  attributes:
+    important: true
+

@@ -1,0 +1,5 @@
+---
+id: unversioned.dictionary
+name: A Dictionary with an invalid version
+description: Bad path test
+version: made up value
