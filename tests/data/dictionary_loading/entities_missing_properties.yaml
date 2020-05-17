@@ -1,4 +1,3 @@
 ---
 - id: missing.properties
   name: An entity with no properties file, will raise
-
